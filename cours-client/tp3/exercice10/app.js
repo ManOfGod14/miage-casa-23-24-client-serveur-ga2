@@ -5,12 +5,19 @@ const nextBtnElt = document.querySelector("#nextBtn");
 let currentIndex = 0;
 
 function changeImage(index) {
-  if (index > 0 || currentIndex < images.length - 1) {
+  if (index < 0 || index >= images.length) {
+    return;
+  } else {
     currentIndex = index;
     imageIdElt.src = "images/" + images[currentIndex];
-  } else {
-    return;
   }
+
+  // Ou
+  // if (index < 0 || index >= images.length) {
+  //   return;
+  // }
+  // currentIndex = index;
+  // imageIdElt.src = "images/" + images[currentIndex];
 }
 
 // bouton précédent
