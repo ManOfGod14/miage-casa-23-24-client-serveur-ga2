@@ -14,6 +14,6 @@ let secondes = 0;
 let msecondes = 0;
 
 // fonction pour afficher 2 chiffres lorsqu'on a 1 seul chiffre
-function numberFormat(nbr) {
+function formatNumber(nbr) {
   return nbr.toString().padStart(2, "0");
 }
