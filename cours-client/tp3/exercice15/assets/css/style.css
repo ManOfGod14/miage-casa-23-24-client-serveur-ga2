@@ -22,3 +22,8 @@ h1 {
   font-size: 3.4em;
   font-weight: 500;
 }
+
+button {
+  margin: 5px !important;
+  padding: 8px 20px !important;
+}
