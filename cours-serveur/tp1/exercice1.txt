@@ -1,0 +1,20 @@
+### Response de l'exercice 1
+
+// implémentation des fonction une par une
+function addition(n1, n2) { return n1 + n2; }
+
+function soustraction(n1, n2) { return n1 - n2; }
+
+function multiplication(n1, n2) { return n1 * n2; }
+
+function division(n1, n2) { return n1 / n2; }
+
+// test des fonctions
+> addition(26, 4)
+>
+> soustraction(26, 4)
+>
+> multiplication(4, 4)
+>
+> division(16, 4)
+>
