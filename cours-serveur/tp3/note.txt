@@ -1,0 +1,11 @@
+### initialisation d'un projet
+$ npm init -y
+$
+
+### installation du module nodemon en mode develeppement
+$ npm install --save-dev nodemon
+$
+
+### installation du framework express.js
+$ npm install express
+$
